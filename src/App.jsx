@@ -22,7 +22,7 @@ function App() {
       <ContactUsLayout></ContactUsLayout>
       <OurTeamBanner></OurTeamBanner>
       <AllMembersDraft3></AllMembersDraft3>
-      {/* <NewsClassicLayout></NewsClassicLayout> */}
+      <NewsClassicLayout></NewsClassicLayout>
 
      </div>
     </>

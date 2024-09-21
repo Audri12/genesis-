@@ -20,24 +20,60 @@ const NewsCard = () => {
           {
             cards.map((card)=>(
               <div>
-                <div key={card.id}>
+                <div key={card.id} className="relative group">
                   {/* <img src={card.image} className='w-full h-full'/> */}
-
-                  <div className="relative ">
+{/* 
+                  <div className="">
      
-      <img src={card.image} className='w-full h-full'/>
+      <img src={card.image} className=' w-full h-full '/>
       <div className="absolute inset-0 bg-[#5d2e6d] flex items-center justify-self-start max-w-32 h-8 p-2 ">
         <div className="text-white text-xs">{card.date_of_publication}</div>
       </div>
     </div>
 
+    <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100   group-hover:scale-50">
+                <img
+                  src={card.image}
+                  className="object-cover w-full h-full "
+                  alt={card.name}
+                />
+              </div> */}
 
+
+
+
+
+
+               {/* Group class at the card level */}
+            <div className="relative w-full overflow-hidden rounded shadow-lg">
+              {/* Image */}
+              <img
+                src={card.image}
+                className="object-cover w-full h-full "
+                alt={card.name} 
+              />
+            <div className="absolute z-10 bg-[#ff7906] h-8 w-24  text-white text-xs">{card.date_of_publication}</div>
+              {/* <div className="absolute inset-0  group-hover:scale-125">
+                <img
+                  src={card.image}
+                  className="object-cover w-full h-full "
+                  alt={card.name}
+                />
+              </div> */}
+
+              
+             
+            
+
+            
+             
+                </div>
 
 
 
                   <div className='p-4'>
-                  <p className='text-[#5d2e6d] transition-colors duration-500 hover:text-[#f1705a] font-semibold text-2xl py-4 '>{card.title}</p>
-                  <p className='text-[#15135D]'>{card.description}</p>
+                  <p className='transition-colors duration-500 hover:text-[#f1705a] font-semibold text-2xl py-4 '>{card.title}</p>
+                  <p className=''>{card.description}</p>
 
 
                   <div className="flex space-x-4 ">
@@ -59,23 +95,11 @@ const NewsCard = () => {
         </div>
 
 
-{/* button  start */}
-        <div className=' justify-center text-center pb-16'>
-      <a><button className="btn font-normal r tracking-wide text-base p-3 px-8 text-white bg-[#5d2e6d] hover:bg-[#389ab3]
-              ">Read All</button></a>
-      </div>
-{/* button  end */}
 
       
        </div>
 
 
-
-
-         
-
-           
-         
     </div> 
 
     </div>
