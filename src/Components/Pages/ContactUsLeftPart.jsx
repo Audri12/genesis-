@@ -4,7 +4,7 @@ const ContactUsLeftPart = () => {
   return (
     <div className='font-rajdhani '>
       <span className='flex mb-10'>
-        <h1 className='font-rajdhani text-5xl mr-2'>Send</h1>
+        <h1 className='font-rajdhani text-5xl font-medium mr-2'>Send</h1>
         <h1 className='font-bold text-5xl text-[#FF7906]'>Message</h1>
       </span>
       

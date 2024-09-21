@@ -14,8 +14,8 @@ const AllMembersDraft3 = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-5">
-      <div className="grid gap-8 row-gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:px-40">
+    <div className="container mx-auto p-5 pt-[105px] pb-[60px] ">
+      <div className="grid gap-8 row-gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {cards.map((card) => (
           <div key={card.id} className="relative group">
             {" "}
@@ -40,7 +40,7 @@ const AllMembersDraft3 = () => {
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70  transition-opacity duration-500"></div>
 
               {/* SVG Icons */}
-              <div className="absolute inset-0 flex items-center justify-center text-center translate-y-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="absolute inset-0 flex items-center justify-center text-center translate-y-20 md:translate-y-16 lg:translate-y-12 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ">
                 <ul className="flex space-x-3">
                   <li>
                     <a
