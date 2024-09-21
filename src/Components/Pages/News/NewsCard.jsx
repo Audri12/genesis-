@@ -21,7 +21,29 @@ const NewsCard = () => {
             cards.map((card)=>(
               <div>
                 <div key={card.id} className="relative group">
-      
+                  {/* <img src={card.image} className='w-full h-full'/> */}
+{/* 
+                  <div className="">
+     
+      <img src={card.image} className=' w-full h-full '/>
+      <div className="absolute inset-0 bg-[#5d2e6d] flex items-center justify-self-start max-w-32 h-8 p-2 ">
+        <div className="text-white text-xs">{card.date_of_publication}</div>
+      </div>
+    </div>
+
+    <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100   group-hover:scale-50">
+                <img
+                  src={card.image}
+                  className="object-cover w-full h-full "
+                  alt={card.name}
+                />
+              </div> */}
+
+
+
+
+
+
                {/* Group class at the card level */}
             <div className="relative w-full overflow-hidden rounded shadow-lg">
               {/* Image */}
@@ -31,15 +53,22 @@ const NewsCard = () => {
                 alt={card.name} 
               />
             <div className="absolute z-10 bg-[#ff7906] h-8 w-24  text-white text-xs">{card.date_of_publication}</div>
-              <div className="absolute inset-0  group-hover:scale-125">
+              {/* <div className="absolute inset-0  group-hover:scale-125">
                 <img
                   src={card.image}
                   className="object-cover w-full h-full "
                   alt={card.name}
                 />
-              </div>
+              </div> */}
 
+              
+             
+            
+
+            
+             
                 </div>
+
 
 
                   <div className='p-4'>
