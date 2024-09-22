@@ -2,6 +2,7 @@
 
 
 import AboutBanner from "./Components/Pages/About/AboutBanner"
+import AboutBannerCard from "./Components/Pages/About/AboutBannerCard"
 import AboutBannerLayout from "./Components/Pages/About/AboutBannerLayout"
 import ContactUsLayout from "./Components/Pages/ContactUsLayout"
 import FAQ from "./Components/Pages/FAQ/FAQ"
@@ -36,6 +37,7 @@ function App() {
       <TeamSectionFAQ></TeamSectionFAQ>
       {/* <AboutBanner></AboutBanner> */}
       <AboutBannerLayout></AboutBannerLayout>
+      <AboutBannerCard></AboutBannerCard>
 
      </div>
     </>
