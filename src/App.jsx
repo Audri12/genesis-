@@ -30,11 +30,11 @@ function App() {
       <OurTeamBanner></OurTeamBanner>
       <AllMembersDraft3></AllMembersDraft3>
       <NewsClassicLayout></NewsClassicLayout>
-      <RequestForm></RequestForm>
-      <FAQHeader></FAQHeader>
-      <FAQSection></FAQSection>
+      {/* <RequestForm></RequestForm> */}
+      {/* <FAQHeader></FAQHeader>
+      <FAQSection></FAQSection> */}
       <TeamSectionFAQ></TeamSectionFAQ>
-      <AboutBanner></AboutBanner>
+      {/* <AboutBanner></AboutBanner> */}
       <AboutBannerLayout></AboutBannerLayout>
 
      </div>

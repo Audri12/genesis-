@@ -6,7 +6,7 @@ const NewsClassicLayout = () => {
   return (
     <div>
         <NewsCard></NewsCard>
-        <NewsCardDraft></NewsCardDraft>
+        {/* <NewsCardDraft></NewsCardDraft> */}
     </div>
   )
 }

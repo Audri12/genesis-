@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <div>
       
-        <div className='grid grid-cols-12 gap-10 container mx-auto max-w-[1200px] font-rajdhani mb-[65px] p-5 pt-28'>
+        <div className='grid grid-cols-12 gap-10 container mx-auto  font-rajdhani mb-[65px] p-5 pt-28 px-[5%]'>
             <div className='col-span-12  md:col-span-7 lg:col-span-7'>
             <ContactUsLeftPart></ContactUsLeftPart>
             </div>

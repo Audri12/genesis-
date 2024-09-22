@@ -14,7 +14,7 @@ const AllMembersDraft3 = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-5 pt-[105px] pb-[60px] ">
+    <div className="container mx-auto p-5 pt-[105px] pb-[60px] px-[5%] ">
       <div className="grid gap-8 row-gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {cards.map((card) => (
           <div key={card.id} className="relative group">

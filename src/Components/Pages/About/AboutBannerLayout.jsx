@@ -4,7 +4,7 @@ import AboutBanner from './AboutBanner'
 const AboutBannerLayout = () => {
   return (
     <div>
-        <div className='container mx-auto p-5 px-[5%]'>
+        <div className='container mx-auto p-5 px-[5%] pt-28'>
         <div className='grid grid-cols-2 gap-4 '>
         
         <div>
