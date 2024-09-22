@@ -13,7 +13,7 @@ const NewsCardDraft = () => {
 
     return (
         <div>
-            <div>
+            <div container mx-auto p-5>
                 <div className="grid gap-8 row-gap-5 mb-8 bg-[#F9F9F9] sm:grid-cols-2 lg:grid-cols-3 sm:mx-auto justify-center ">
                     {cards.map((card) => (
                         <div key={card.id} className="relative group shadow-lg">

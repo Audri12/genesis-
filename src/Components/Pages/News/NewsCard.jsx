@@ -13,94 +13,63 @@ const NewsCard = () => {
     },[])
   return (
     <div>
-       <div>
-        
-       <div className=''>
-       <div className='grid gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-3 sm:mx-auto justify-center px-96 drop-shadow-md '>
-          {
-            cards.map((card)=>(
-              <div>
-                <div key={card.id} className="relative group">
-                  {/* <img src={card.image} className='w-full h-full'/> */}
-{/* 
-                  <div className="">
-     
-      <img src={card.image} className=' w-full h-full '/>
-      <div className="absolute inset-0 bg-[#5d2e6d] flex items-center justify-self-start max-w-32 h-8 p-2 ">
-        <div className="text-white text-xs">{card.date_of_publication}</div>
-      </div>
-    </div>
+        <div container mx-auto p-5>
+                <div className="grid gap-8 row-gap-5 mb-8 bg-[#F9F9F9] sm:grid-cols-2 lg:grid-cols-3 sm:mx-auto justify-center ">
+                    {cards.map((card) => (
+                        <div key={card.id} className="relative group shadow-lg">
+                            {/* Group class at the card level */}
+                            <div className="relative w-full overflow-hidden rounded shadow-lg">
+                                {/* Image */}
+                                <img
+                                    src={card.image}
+                                    className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+                                    alt={card.name}
+                                />
 
-    <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100   group-hover:scale-50">
-                <img
-                  src={card.image}
-                  className="object-cover w-full h-full "
-                  alt={card.name}
-                />
-              </div> */}
+                                {/* Date with hover translate effect */}
+                                <div className="absolute top-8  bg-[#ff7906] h-10 w-28  p-2 rounded-br-full rounded-tr-[3994px] text-white text-sm font-normal transform transition-transform duration-700 group-hover:delay-150  group-hover:-translate-y-4 z-20 group-hover:rounded-br-[3994px] group-hover:rounded-tr-full group-hover:w-[120px]">
+                                    {card.date_of_publication}
+                                </div>
+                            </div>
 
+                            <div className="p-6 ">
+                                <p className="transition-colors duration-500 font-rajdhani hover:text-[#ff7906] font-bold text-[28px] leading-8 pb-3 py-4">
+                                    {card.title}
+                                </p>
+                                <p className='font-roboto'>{card.description}</p>
+                            </div>
 
+                            {/* Author section */}
+                            <div className="flex justify-between items-center border-t border-[#EEEEEE] p-6 ">
+                                <div className="flex items-center">
+                                    {/* Author image */}
+                                    <img
+                                        src={card.author_image} // Assuming this field exists in your data
+                                        alt="Author"
+                                        className="w-10 h-10 rounded-full border-[#FF7906] border-2 mr-3"
+                                    />
+                                     <div className="text-base font-normal flex">                                    
+                                    <p className="text-gray-900 mr-1">By </p>
+                                    <a className='text-[#ff7906]'>{card.author}</a>
+                                  </div>
 
+                                    
+                                </div>
 
-
-
-               {/* Group class at the card level */}
-            <div className="relative w-full overflow-hidden rounded shadow-lg">
-              {/* Image */}
-              <img
-                src={card.image}
-                className="object-cover w-full h-full "
-                alt={card.name} 
-              />
-            <div className="absolute z-10 bg-[#ff7906] h-8 w-24  text-white text-xs">{card.date_of_publication}</div>
-              {/* <div className="absolute inset-0  group-hover:scale-125">
-                <img
-                  src={card.image}
-                  className="object-cover w-full h-full "
-                  alt={card.name}
-                />
-              </div> */}
-
-              
-             
-            
-
-            
-             
+                                {/* Read more link */}
+                                <div>
+                                    <a
+                                        href="#"
+                                        className="text-[#FF7906] underline "
+                                    >
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-
-
-
-                  <div className='p-4'>
-                  <p className='transition-colors duration-500 hover:text-[#f1705a] font-semibold text-2xl py-4 '>{card.title}</p>
-                  <p className=''>{card.description}</p>
-
-
-                  <div className="flex space-x-4 ">
-          <button className="text-[#f1705a] transition-colors duration-500 hover:text-[#18b7c7] py-2 rounded">
-          {card.author}
-          </button>
-          <button className="text-[#f1705a] transition-colors duration-500 hover:text-[#18b7c7] py-2 pl-2 rounded">
-          {card.date_of_publication}
-          </button>
-        </div>
-
-                  </div>
-                  
-                </div>
-              </div>
-            ))
-          }
-          
-        </div>
-
-
-
-      
-       </div>
-
-
-    </div> 
+            </div>
 
     </div>
   )
