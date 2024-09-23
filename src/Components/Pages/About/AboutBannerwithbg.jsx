@@ -6,7 +6,7 @@ const AboutBannerwithbg = () => {
   return (
     <div>
         <div 
-        className=" bg-center"
+        className="bg-bottom"
         style={{ backgroundImage: "url('https://webextheme.com/html/loxicat/images/bg/ac2.png')" }}>
             <AboutBannerLayout></AboutBannerLayout>
             <AboutBannerCard></AboutBannerCard>

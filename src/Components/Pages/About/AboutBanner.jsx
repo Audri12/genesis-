@@ -14,7 +14,7 @@ const AboutBanner = () => {
 
   return (
     <div className='font-rajdhani px-[5%]'>
-        <p className='font-medium text-lg text-[#FF7906] underline pb-3.5'>Welcome to Loxicat Industry</p>
+        <p className='font-semibold text-lg text-[#FF7907] underline pb-3.5'>Welcome to Loxicat Industry</p>
         <h1 className='font-bold text-5xl text-[#0C2239] pb-6'>Most Leading Industrial Service Provider.</h1>
         <p className='text-[#5C5E64] text-base font-roboto pb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque, maxime aliquam cum odio aut ex, et blanditiis corporis rerum unde vitae nihil. Eius porro sunt temporibus soluta libero voluptatum.
 </p>
@@ -33,7 +33,7 @@ const AboutBanner = () => {
           </div>
         ))}
       </div>
-      <button className='bg-[#FF7905] text-lg font-roboto text-white px-16	py-5 my-6 rounded-md'>About Us</button>
+      <button className='bg-[#FF7905] text-lg font-roboto text-white px-16	py-5 my-6 hover:bg-[#DC6600] rounded-md'>About Us</button>
     </div>
   )
 }

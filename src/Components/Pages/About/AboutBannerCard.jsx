@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutBannerCard = () => {
   return (
-    <div className='container mx-auto p-[5%] pb-[80px]'>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-10 p-4">
+    <div className='container mx-auto p-[5%] pb-[80px] '>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10 p-4">
         
         {/* Card 1 - Worker SVG with hover effect */}
         <div className='group'>
-          <div className='flex flex-cols-3 group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
+          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
             <div className="group-hover:stroke-white col-span-1">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ const AboutBannerCard = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-12 h-12 text-orange-600 group-hover:text-white transition-all duration-300"
+                className="w-12 h-12 text-[#FF7907] group-hover:text-white transition-all duration-300"
               >
                 {/* SVG path for Service Icon */}
                 <path
@@ -26,10 +26,10 @@ const AboutBannerCard = () => {
               </svg>
             </div>
             <div className="col-span-2 ml-3">
-              <h2 className="text-xl font-semibold text-orange-600 mb-[15px] group-hover:text-white transition-all duration-300">
+              <h2 className="text-2xl font-rajdhani font-bold text-[#FF7907] mb-[15px] group-hover:text-white transition-all duration-300">
                 Skilled Workers
               </h2>
-              <p className="text-gray-600 group-hover:text-white transition-all duration-300">
+              <p className="text-base font-normal text-gray-600 group-hover:text-white transition-all duration-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus
                 voluptatibus ea repudiandae vero?
               </p>
@@ -58,10 +58,10 @@ const AboutBannerCard = () => {
               </svg>
             </div>
             <div className="col-span-2 ml-3">
-              <h2 className="text-xl font-semibold text-white mb-[15px]">
+              <h2 className="text-2xl font-rajdhani font-bold text-white mb-[15px]">
                 Modern Buildings
               </h2>
-              <p className="text-white">
+              <p className="text-white text-base font-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus
                 voluptatibus ea repudiandae vero?
               </p>
@@ -71,7 +71,7 @@ const AboutBannerCard = () => {
 
         {/* Card 3 - With hover effect */}
         <div className='group'>
-          <div className='flex flex-cols-3 group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
+          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
             <div className="group-hover:stroke-white col-span-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const AboutBannerCard = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-12 h-12 text-orange-600 group-hover:text-white transition-all duration-300"
+                className="w-12 h-12 text-[#FF7907] group-hover:text-white transition-all duration-300"
               >
                 {/* SVG path for Service Icon */}
                 <path
@@ -90,10 +90,10 @@ const AboutBannerCard = () => {
               </svg>
             </div>
             <div className="col-span-2 ml-3">
-              <h2 className="text-xl font-semibold text-orange-600 mb-[15px] group-hover:text-white transition-all duration-300">
+              <h2 className="text-2xl font-rajdhani font-bold text-[#FF7907] mb-[15px] group-hover:text-white transition-all duration-300">
                 Quality Service
               </h2>
-              <p className="text-gray-600 group-hover:text-white transition-all duration-300">
+              <p className="text-gray-600 text-base font-normal group-hover:text-white transition-all duration-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus
                 voluptatibus ea repudiandae vero?
               </p>
