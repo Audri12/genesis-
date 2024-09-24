@@ -5,6 +5,7 @@ import AboutBanner from "./Components/Pages/About/AboutBanner"
 import AboutBannerCard from "./Components/Pages/About/AboutBannerCard"
 import AboutBannerLayout from "./Components/Pages/About/AboutBannerLayout"
 import AboutBannerwithbg from "./Components/Pages/About/AboutBannerwithbg"
+import AboutCardDraft from "./Components/Pages/About/AboutCardDraft"
 import AboutTopBanner from "./Components/Pages/About/AboutTopBanner"
 import MeetTheTeam from "./Components/Pages/About/MeetTheTeam"
 import ContactUsLayout from "./Components/Pages/ContactUsLayout"
@@ -45,6 +46,7 @@ function App() {
       <AboutTopBanner></AboutTopBanner>
       <AboutBannerwithbg></AboutBannerwithbg>
       <MeetTheTeam></MeetTheTeam>
+      <AboutCardDraft></AboutCardDraft>
 
      </div>
     </>
