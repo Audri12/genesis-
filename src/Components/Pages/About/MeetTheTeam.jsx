@@ -12,45 +12,49 @@ const MeetTheTeam = () => {
           console.log(data);
         });
     }, []);
-  return (
+
+    // Limit to first 4 items
+    const displayedCards = cards.slice(0, 4);
+
+    return (
     <div>
         <div className=""
         style={{ backgroundImage: "url('https://webextheme.com/html/loxicat/images/bg/pattern3.png')" }}>
 
-<div className='container mx-auto p-5 px-[5%]  '>
-            
-            <div className=''>
+<div className='container mx-auto p-5 py-[105px] px-[5%]'>
+            <div className='mb-16'>
             <h1 className='font-semibold text-lg font-rajdhani text-[#FF7907] underline pb-3.5 text-center  '>Meet Our Team</h1>
             <h2 className="text-5xl  text-center font-bold font-rajdhani leading-[58px] mb-10">We Have a Professional <br /> Consulting Team</h2>
             </div>
              <div>
              <div className="grid gap-8 row-gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
-            {cards.map((card) => (
+            {displayedCards.map((card) => (
               <div key={card.id} className="relative group">
-              
-                {/* Group class at the card level */}
+               {/* Card content */}
                 <div className="relative w-full overflow-hidden rounded shadow-lg">
                   {/* Image */}
                   <img
                     src={card.image}
-                    className="object-cover w-full h-full "
+                    className="object-cover w-full h-full"
                     alt={card.name}
                   />
-    
-                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100   group-hover:scale-125">
+
+                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 group-hover:scale-125">
                     <img
                       src={card.image}
-                      className="object-cover w-full h-full "
+                      className="object-cover w-full h-full"
                       alt={card.name}
                     />
                   </div>
-    
+
                   {/* Blackish Overlay */}
-                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70  transition-opacity duration-500"></div>
-    
+                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-500"></div>
+
                   {/* SVG Icons */}
                   <div className="absolute inset-0 flex items-center justify-center text-center translate-y-20 md:translate-y-16 lg:translate-y-12 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ">
                     <ul className="flex space-x-3">
+                      {/* Social Media Icons */}
+                      {/* Social media links */}
                       <li>
                         <a
                           href="#"
@@ -112,14 +116,14 @@ const MeetTheTeam = () => {
                       </li>
                     </ul>
                   </div>
-    
+
                   {/* Overlay for Button */}
                   <div className="absolute inset-0 z-10 flex items-end p-6">
                     <button className="w-full py-3 bg-white group-hover:bg-[#FF7906] transition duration-300 transform translate-y-0 group-hover:translate-y-6">
                       <h1 className="text-black font-rajdhani text-[28px] font-bold group-hover:text-white">
                         {card.name}
                       </h1>
-                      <p className="text-[#FF7906] font-rajdhani text-base font-[600]  group-hover:text-white">
+                      <p className="text-[#FF7906] font-rajdhani text-base font-[600] group-hover:text-white">
                         {card.designation}
                       </p>
                     </button>
@@ -137,4 +141,4 @@ const MeetTheTeam = () => {
   )
 }
 
-export default MeetTheTeam
+export default MeetTheTeam;

@@ -7,7 +7,7 @@ const AboutBannerCard = () => {
         
         {/* Card 1 - Worker SVG with hover effect */}
         <div className='group'>
-          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
+          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm max-h-56'>
             <div className="group-hover:stroke-white col-span-1">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const AboutBannerCard = () => {
 
         {/* Card 2 - Buildings SVG with no hover effect, always orange background */}
         <div className=''>
-          <div className='flex flex-cols-3 bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
+          <div className='flex flex-cols-3 bg-orange-500 p-[30px] border border-gray-100 shadow-sm max-h-56'>
             <div className="flex-shrink-0 col-span-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const AboutBannerCard = () => {
 
         {/* Card 3 - With hover effect */}
         <div className='group'>
-          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm'>
+          <div className='flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-orange-500 p-[30px] border border-gray-100 shadow-sm max-h-56'>
             <div className="group-hover:stroke-white col-span-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

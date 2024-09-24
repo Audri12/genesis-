@@ -45,6 +45,7 @@ function App() {
       <AboutTopBanner></AboutTopBanner>
       <AboutBannerwithbg></AboutBannerwithbg>
       <MeetTheTeam></MeetTheTeam>
+      
 
      </div>
     </>
