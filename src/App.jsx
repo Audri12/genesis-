@@ -46,11 +46,7 @@ function App() {
       <AboutTopBanner></AboutTopBanner>
       <AboutBannerwithbg></AboutBannerwithbg>
       <MeetTheTeam></MeetTheTeam>
-<<<<<<< HEAD
       <AboutCardDraft></AboutCardDraft>
-=======
-      
->>>>>>> 8e14311b48cdfb29c031645911f1fbffc5898a40
 
      </div>
     </>
