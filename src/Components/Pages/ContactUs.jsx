@@ -7,10 +7,10 @@ const ContactUs = () => {
     <div>
       
         <div className='grid grid-cols-12 gap-10 container mx-auto  font-rajdhani mb-[65px] p-5 pt-28 px-[5%]'>
-            <div className='col-span-12  md:col-span-7 lg:col-span-7'>
+            <div className='col-span-12  md:col-span-12 lg:col-span-7'>
             <ContactUsLeftPart></ContactUsLeftPart>
             </div>
-            <div className='col-span-12 md:col-span-5'>
+            <div className='col-span-12 md:col-span-12 lg:col-span-5'>
             <ContactUsRight></ContactUsRight>
             </div>
       
