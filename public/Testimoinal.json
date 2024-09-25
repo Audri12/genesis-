@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      },
+      {
+        "id": 4,
+       "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      },
+      {
+        "id": 5,
+       "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Jack Mehoff",
+        "designation": "Engineer",
+"testimonials": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus voluptatibus ea repudiandae vero?",
+        "image": "https://webextheme.com/html/loxicat/images/team/team1.jpg"
+      }
+      
+]
