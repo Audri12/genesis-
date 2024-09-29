@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutUsBanner = () => {
   return (
-    <div>
+    <div className='w-full h-[36vh]'>
       <div
-        className="flex items-center justify-center bg-auto  h-[36vh] w-full"
+        className="flex items-center justify-center bg-auto py-10"
         style={{ backgroundImage: "url('https://webextheme.com/html/loxicat/images/bg/2.jpg')" }}
       >
         <div className='text-center '> 

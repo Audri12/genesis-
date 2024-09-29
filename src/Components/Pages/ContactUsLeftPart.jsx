@@ -2,16 +2,16 @@ import React from 'react';
 
 const ContactUsLeftPart = () => {
   return (
-    <div className='font-rajdhani '>
+    <div className='font-rajdhani mt-20 lg:mt-2'>
       <span className='flex mb-10'>
         <h1 className='font-rajdhani text-5xl font-medium mr-2'>Send</h1>
         <h1 className='font-bold text-5xl text-[#FF7906]'>Message</h1>
       </span>
       
-      <form action="">
-        <div className='grid grid-cols-2'>
+      <form className=''>
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div>
-            <label className="block pb-5 pr-5">
+            <label className="block pb-5 lg:pr-5">
               <input 
                 type="text" 
                 placeholder="Name" 

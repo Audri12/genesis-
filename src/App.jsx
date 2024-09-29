@@ -46,8 +46,8 @@ function App() {
       <TeamSectionFAQ></TeamSectionFAQ>
       {/* <AboutBanner></AboutBanner> */}
 
-      <AboutBannerLayout></AboutBannerLayout>
-      <AboutBannerCard></AboutBannerCard>
+      {/* <AboutBannerLayout></AboutBannerLayout> */}
+      {/* <AboutBannerCard></AboutBannerCard> */}
       <AboutTopBanner></AboutTopBanner>
       <AboutBannerwithbg></AboutBannerwithbg>
       <MeetTheTeam></MeetTheTeam>
